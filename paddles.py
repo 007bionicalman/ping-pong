@@ -31,14 +31,14 @@ while running:
 
     #does't show rectangle just black background
 
-    # Initializing Color
+    # Initializing left paddle Color
     color = (0, 0, 153)
 
     # Drawing Rectangle
     pygame.draw.rect(screen, color, pygame.Rect(0, 230, 30, 500))
     pygame.display.flip()
 
-    # Initializing Color
+    # Initializing right paddle Color
     color = (153, 0, 0)
 
     # Drawing Rectangle
