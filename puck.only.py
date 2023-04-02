@@ -31,6 +31,8 @@ while running:
 
     #does't show rectangle just black background
 
+    #circle moves wrong
+    
     # Initializing Color
     #color = (0, 0, 153)
 
