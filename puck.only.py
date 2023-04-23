@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode([1000, 1000])
+screen = pygame.display.set_mode([1000, 810])
 
 scree =  pygame.display.set_caption ( "Paddles and puck")
 
@@ -31,8 +31,6 @@ while running:
 
     #does't show rectangle just black background
 
-    #circle moves wrong
-    
     # Initializing Color
     #color = (0, 0, 153)
 
@@ -46,7 +44,7 @@ while running:
     # Drawing Rectangle
     #pygame.draw.rect(screen, color, pygame.Rect(970, 230, 30, 500))
 
-    pygame.draw.circle(screen, (0, 0, 255), (x, y), 45)
+    pygame.draw.circle(screen, (0, 0, 255), (x, y), 20)
 
     print(str("x : {} , y : {}").format(x, y))
 
